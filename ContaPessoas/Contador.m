@@ -25,7 +25,8 @@
 }
 
 - (void)maisUmCueca {
-    boy = boy + 1;
+    //otimização para facilitar leitura do código
+    boy++;
 }
 - (void)maisUmaGata {
     girl++;
