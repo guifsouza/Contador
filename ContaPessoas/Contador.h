@@ -6,13 +6,18 @@
 //  Copyright (c) 2015 Vinicius Miana. All rights reserved.
 //
 
-@interface Contador : NSObject 
+@interface Contador : NSObject
+{
+    
+}
 
++ (instancetype)sharedInstance;
 - (void)maisUmCueca;
 - (void)maisUmaGata;
 
 -(int)getBoys;
 -(int)getGirls;
+-(int)getTotal;
 
 @end
 
