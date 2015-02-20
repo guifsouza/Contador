@@ -13,15 +13,14 @@
 @implementation Contador {
     int boy;
     int girl;
-    int total;
 }
+
 
 -(id)init {
     self = [super init];
     if (self) {
         boy = 0;
         girl = 0;
-        total = 0;
     }
     return self;
 }
@@ -39,11 +38,12 @@
 - (void)maisUmCueca {
     //otimização para facilitar leitura do código
     boy++;
-    total = girl + boy;
+    [_delegate atualiza];
 }
+
 - (void)maisUmaGata {
     girl++;
-    total = boy + girl;
+    [_delegate atualiza];
 }
 
 -(int)getBoys {
@@ -55,7 +55,7 @@
 }
 
 -(int)getTotal {
-    return total;
+    return girl + boy;
 }
 
 

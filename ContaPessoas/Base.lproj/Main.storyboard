@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYm-mB-gId">
-                                <rect key="frame" x="167" y="75" width="128" height="224"/>
+                                <rect key="frame" x="141" y="103" width="181" height="350"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="GJ8-PI-wpB"/>
                                     <constraint firstAttribute="width" constant="150" id="wRK-D8-fAn"/>
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQx-1Z-n65">
-                                <rect key="frame" x="298" y="81" width="111" height="211"/>
+                                <rect key="frame" x="355" y="108" width="175" height="345"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="D13-p5-bzh"/>
                                     <constraint firstAttribute="height" constant="150" id="Q06-7B-no7"/>
@@ -81,77 +81,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zlZ-pw-isi">
-                                <rect key="frame" x="399" y="155" width="74.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zlZ-pw-isi">
+                                <rect key="frame" x="137" y="144" width="74.5" height="41.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LCb-d8-9Wo">
-                                <rect key="frame" x="399" y="227" width="74.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="mhu-4X-L9M">
+                                <rect key="frame" x="263" y="270" width="74.5" height="41.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="mhu-4X-L9M">
-                                <rect key="frame" x="399" y="293" width="74.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Meninas" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="MWx-mv-3OH">
+                                <rect key="frame" x="331" y="100" width="209.5" height="41.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Meninos" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fk8-1m-cHD">
-                                <rect key="frame" x="136" y="154" width="209.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Total" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BCx-e7-LoI">
+                                <rect key="frame" x="196" y="221" width="209.5" height="41.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Meninas" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="MWx-mv-3OH">
-                                <rect key="frame" x="136" y="227" width="209.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Meninos" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="fk8-1m-cHD">
+                                <rect key="frame" x="70" y="99" width="209.5" height="41.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Total" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BCx-e7-LoI">
-                                <rect key="frame" x="136" y="292" width="209.5" height="41.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="LCb-d8-9Wo">
+                                <rect key="frame" x="398" y="144" width="74.5" height="41.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wdw-cL-Bgf">
-                                <rect key="frame" x="299" y="406" width="54" height="30"/>
-                                <state key="normal" title="Atualiza">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="click:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Wmf-Ss-Ora"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="LCb-d8-9Wo" firstAttribute="height" secondItem="zlZ-pw-isi" secondAttribute="height" id="0UI-Wh-0CC"/>
-                            <constraint firstItem="BCx-e7-LoI" firstAttribute="leading" secondItem="MWx-mv-3OH" secondAttribute="leading" id="13w-Ws-6h4"/>
-                            <constraint firstItem="LCb-d8-9Wo" firstAttribute="height" secondItem="mhu-4X-L9M" secondAttribute="height" id="4BZ-yh-wQX"/>
-                            <constraint firstAttribute="centerX" secondItem="LCb-d8-9Wo" secondAttribute="centerX" constant="-136.25" id="4rG-nJ-DkZ"/>
-                            <constraint firstItem="BCx-e7-LoI" firstAttribute="leading" secondItem="fk8-1m-cHD" secondAttribute="leading" id="D9s-Cz-OX2"/>
-                            <constraint firstItem="LCb-d8-9Wo" firstAttribute="leading" secondItem="mhu-4X-L9M" secondAttribute="leading" id="GFQ-vr-yRa"/>
-                            <constraint firstAttribute="centerX" secondItem="fk8-1m-cHD" secondAttribute="centerX" constant="59.25" id="KWR-09-zTG"/>
-                            <constraint firstItem="BCx-e7-LoI" firstAttribute="trailing" secondItem="fk8-1m-cHD" secondAttribute="trailing" id="SDh-fW-JWM"/>
-                            <constraint firstAttribute="centerX" secondItem="BCx-e7-LoI" secondAttribute="centerX" constant="59.25" id="TcR-2R-ddK"/>
-                            <constraint firstAttribute="centerX" secondItem="MWx-mv-3OH" secondAttribute="centerX" constant="59.25" id="UWr-NX-WIB"/>
-                            <constraint firstItem="BCx-e7-LoI" firstAttribute="trailing" secondItem="MWx-mv-3OH" secondAttribute="trailing" id="Uth-HT-MVO"/>
-                            <constraint firstItem="LCb-d8-9Wo" firstAttribute="leading" secondItem="zlZ-pw-isi" secondAttribute="leading" id="WyN-JN-7yB"/>
-                            <constraint firstAttribute="centerX" secondItem="zlZ-pw-isi" secondAttribute="centerX" constant="-136.25" id="ZH3-t4-akW"/>
-                            <constraint firstItem="LCb-d8-9Wo" firstAttribute="width" secondItem="zlZ-pw-isi" secondAttribute="width" id="b34-rW-60A"/>
-                            <constraint firstAttribute="centerX" secondItem="mhu-4X-L9M" secondAttribute="centerX" constant="-136.25" id="l6x-YP-ENq"/>
-                            <constraint firstItem="LCb-d8-9Wo" firstAttribute="width" secondItem="mhu-4X-L9M" secondAttribute="width" id="xTe-Z9-CYW"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                     <connections>
